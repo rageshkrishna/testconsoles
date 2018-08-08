@@ -1,0 +1,5 @@
+language: none
+ci:
+  build:
+    - curl http://www.gutenberg.org/files/1342/1342-0.txt -o out.txt
+    - time cat out.txt
